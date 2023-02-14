@@ -1,0 +1,407 @@
+body{
+    max-width: 1600px;
+    min-height: 1281px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #141718;
+    box-shadow: 1px 1px 10px black;
+    background-image: url(../assects/image/Bg.jpg);
+    background-size: cover;
+}
+main{
+    max-width: 1600px;
+    min-height: 1281px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #141718;
+    box-shadow: 1px 1px 10px black;
+}
+
+/*________________________________________________________________________*/
+
+.container_items{
+    position: relative;
+    width: 1600px;
+    height: 99px;
+    background: #0d0e13;
+    box-shadow: 0px 2px 15px 0px rgba(12, 12, 14, 0.377);
+}
+.header-logo{
+    position: absolute;
+    width: 100px;
+    height: 83px;
+    top: 3px;
+    padding-left: 32px;
+    padding-top: 8px;
+}
+.nav-links__item{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;   
+}
+.link_items{
+    position: relative;
+    width: 500px;
+    height: 24px;
+    left: 156px;
+    top: 37px;
+}
+.link_account{
+    position: relative;
+    width: 300px;
+    height: 24px;
+    left: 1195px;
+    top: 13px;
+}
+
+/*________________________________________________________________________*/
+
+.container_store{
+    position: relative;
+    width: 1530px;
+    height: 973px;
+    left: 35px;
+    top: 52px;
+    background: rgba(13, 15, 17, 0.5);
+}
+.name-section{
+    position: absolute;
+    width: 262px;
+    height: 44px;
+    left: 141px;
+    top: 110px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+}
+.store-items{
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        gap: 40px;
+        width: 404px;
+        height: 673px;
+        left: 70px;   
+}
+.another-game{
+    position: relative;
+    width: 182px;
+    height: 316px;
+    left: 70px;
+    top: 190px;    
+}
+
+/*________________________________________________________________________*/
+
+.game{
+    position: absolute;
+    width: 844px;
+    height: 475px;
+    left: 584px;
+    top: 21px;
+    border-radius: 10px;
+}
+.bg-game-description{
+    position: relative;
+    width: 458px;
+    height: 209px;
+    left: 574px;
+    bottom: 150px;
+    background: #494F65;
+    border-radius: 17px;    
+}
+.game-description{
+    position: absolute;
+    width: 443px;
+    height: 168px;
+    left: 8px;
+    top: 21px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);    
+}
+button{
+    position: absolute;
+    width: 385px;
+    height: 54px;
+    left: 1043px;
+    top: 531px;
+    background: #30B324;
+    border-radius: 5px;    
+}
+button:hover{
+    background: rgb(37, 155, 26);
+}
+.price{
+    position: absolute;
+    width: 99.74px;
+    height: 36px;
+    left: 142.63px;
+    top: 9px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.quantity{
+    position: absolute;
+    width: 70px;
+    height: 48px;
+    left: 1043px;
+    top: 590px;
+    
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #FFFFFF;    
+}
+.sold{
+    position: absolute;
+    width: 79px;
+    height: 48px;
+    left: 1196px;
+    top: 590px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;    
+}
+.reviews{
+    position: absolute;
+    width: 86px;
+    height: 48px;
+    left: 1342px;
+    top: 590px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;    
+}
+
+/*________________________________________________________________________*/
+
+.container-comment{
+    position: absolute;
+    width: 726px;
+    height: 135px;
+    left: 678px;
+    top: 838px;
+    
+    background: #494F65;
+    border-top-left-radius: 40px;    
+    border-top-right-radius: 40px;    
+}
+.avatar{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 34px;
+    top: 32px;
+}
+.input-pole{
+    position: absolute;
+    width: 539px;
+    height: 46px;
+    left: 153px;
+    top: 52px;
+    
+    background: #D9D9D9;
+    border-radius: 5px;  
+    border: none;  
+}
+.comment{
+    position: absolute;
+    width: 156px;
+    height: 24px;
+    left: 153px;
+    top: 18px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;    
+}
+
+/*________________________________________________________________________*/
+
+footer{
+    position: relative;
+    top: 50px;
+    width: 1600px;
+    height: 157px;
+    background: #0D0E13;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width: 768px) {
+    footer{
+        position: relative;
+        width: 768px;
+        height: 157px;
+        background: #0D0E13;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+.nav-footer__items{
+    position: relative;
+    float: left;
+    left: 200px;
+    bottom: 140px;
+}
+@media screen and (max-width: 768px) {
+    .nav-footer__items{
+        position: relative;
+        float: left;
+        left: 149px;
+        bottom: 180px;
+    }
+}
+.footer-info{
+    position: relative;
+    left: 924px;
+    bottom: 100px;
+    width: 520px;
+    height: 54px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #464343;
+}
+@media screen and (max-width: 768px) {
+    .footer-info{
+        position: relative;
+        left: 392px;
+        bottom: 100px;
+        width: 353px;
+        height: 72px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-size: 15px;
+        line-height: 18px;
+        align-items: center;
+        text-align: center;
+        color: #464343;
+    }
+}
+.website-name{
+    position: relative;
+    bottom: 28.5px;
+    left: 156px;
+    width: 272px;
+    height: 44px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;    
+}
+@media screen {
+    .website-name{
+        position: relative;
+        bottom: 28.5px;
+        left: 156px;
+        width: 272px;
+        height: 44px;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 44px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;    
+    }
+}
+.footer-logo{
+    width: 83px;
+    height: 93px;
+    position: relative;
+    left: 51px;
+    top: 32px;
+}
+@media screen and (max-width: 768px) {
+    .footer-logo{
+        width: 58px;
+        height: 65px;
+        position: relative;
+        left: 51px;
+        top: 32px;
+    }
+}
+.copyright{
+    position: relative;
+    left: 995px;
+    bottom: 100px;
+    width: 379px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #464343;
+        
+}
+@media screen and (max-width: 768px) {
+    .copyright{
+        text-align: center;
+        position: relative;
+        left: 416px;
+        bottom: 96px;
+        width: 304px;
+        height: 36px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-size: 15px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        color: #464343;
+            
+    }
+}

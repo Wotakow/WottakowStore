@@ -1,0 +1,197 @@
+body{
+    max-width: 1600px;
+    min-height: 2954px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #141718;
+    box-shadow: 1px 1px 10px black;
+    background-image: url(../assects/image/Bg.jpg);
+    background-size: cover;
+}
+main{
+    max-width: 1600px;
+    min-height: 2800px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #141718;
+    box-shadow: 1px 1px 10px black;
+}
+p{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.store-items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.container_store{
+    position: relative;
+    top: 120px;
+    max-width: 1440px;
+    max-height: 1500px;
+    margin: 0 auto;
+}
+.name-section{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+}
+
+/*________________________________________________________________________*/    
+
+.container_items{
+    position: relative;
+    width: 1600px;
+    height: 99px;
+    background: #0d0e13;
+    box-shadow: 0px 2px 15px 0px rgba(12, 12, 14, 0.377);
+}
+.header-logo{
+    position: absolute;
+    width: 100px;
+    height: 83px;
+    top: 3px;
+    padding-left: 32px;
+    padding-top: 8px;
+}
+.nav-links__item{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;   
+}
+.link_items{
+    position: relative;
+    width: 500px;
+    height: 24px;
+    left: 156px;
+    top: 37px;
+}
+.link_account{
+    position: relative;
+    width: 300px;
+    height: 24px;
+    left: 1195px;
+    top: 13px;
+}
+
+button{
+    position: relative;
+    width: 469px;
+    height: 80px;
+    left: 483px;
+    top: 100px;
+    background: #AB5B60;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+button:hover{
+    background: #924f52;
+}
+p{
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    top: 19px;
+    left: 86px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+}
+
+/*________________________________________________________________________*/
+
+footer{
+    position: relative;
+    right: 80px;
+    top: 200px;
+    width: 1600px;
+    height: 157px;
+    background: #0D0E13;
+}
+.nav-footer__items{
+    position: relative;
+    float: left;
+    left: 200px;
+    bottom: 40px;
+}
+.footer-info{
+    position: absolute;
+    left: 924px;
+    padding-top: 78px;
+    width: 520px;
+    height: 54px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #464343;
+}
+.website-name{
+    position: relative;
+    bottom: 28.5px;
+    left: 156px;
+    width: 272px;
+    height: 44px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;    
+}
+.footer-logo{
+    width: 83px;
+    height: 93px;
+    position: relative;
+    left: 51px;
+    top: 32px;
+}
+.copyright{
+    position: absolute;
+    left: 1017px;
+    padding-top: 40px;
+    width: 379px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #5a5454;
+        
+}

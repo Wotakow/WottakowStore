@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/index.css">
+        <link rel="shortcut icon" href="./assects/icons/Logo.png">
+</head>
+<body>
+<main>
+<header class="container_header">
+
+<!--__________________________________________________________________________________________________________________________________-->
+
+    <section class="container_items">
+    <div>
+          <img class="header-logo" src="./assects/icons/Logo.png">
+    <div class="link_items">
+          <a href="" class="nav-links__item">ГЛАВНАЯ   </a>
+          <a href="./html/store.html" class="nav-links__item">ТОВАРЫ    </a>
+          <a href="" class="nav-links__item">ПОДДЕРЖКА </a>   
+    </div>
+    <div class="link_account">
+          <a href="" class="nav-links__item">ВОЙТИ       </a>
+          <a href="" class="nav-links__item">РЕГИСТРАЦИЯ </a>
+    </div>
+    </div>
+    </section>
+
+<!--__________________________________________________________________________________________________________________________________-->
+
+    <section class="container_description">
+          <h1 class="description">Огромный выбор игр на любой вкус</h1>
+          <div class="donate">
+          <a href="" class="donate-text">Пополнить счёт</a>
+          </div>
+          <div>
+          <img src="./assects/image/Group 7.png" class="description-image">
+          <hr>
+          </div>
+    </section>
+    <hr class="line-header">
+</header>
+
+<!--__________________________________________________________________________________________________________________________________-->
+
+      <section class="container_store">
+          <h2 class="store-header">ТОП ПРОДАЖ</h2>
+      <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+      <div class="carousel-item active">
+      <div class="play_store">
+          <img src="./assects/icons/Minecraft-Logo.png" class="game-logo-one">
+          <a href=""><img src="./assects/image/Bg1.jpg" class="store_game"></a>
+          <p class="store-text-one">Исследуй собственный уникальный мир, переживи ночь и создай все, что только сможешь вообразить!</p>
+       
+          <button href="" class="button-buy"><p class="price">20.62$</p></button>
+       
+        </div> 
+        </div>
+        <div class="carousel-item">
+        <div class="play_store">
+          <img src="./assects/icons/Minecraft_Dungeons_Logo.png" class="game-logo-two">
+          <a href="./html/game.html"><img src="./assects/image/Bg2.jpg" class="store_game"></a>
+          <p class="store-text-two">Отважно исследуй подземелья.Ваша цель спасти селян и победить злобного Arch-Illager’а!</p>
+       
+          <button href="" class="button-buy"><p class="price">13.75$</p></button>
+       
+        </div> 
+        </div>
+        <div class="carousel-item">
+        <div class="play_store">
+          <img src="./assects/icons/Minecraft_Legends_logo.webp" class="game-logo-three">
+          <a href=""><img src="./assects/image/MinecraftLegends.jpg" class="store_game"></a>
+          <p class="store-text-three">Ведите своих союзников в героические сражения, чтобы защитить Верхний мир от разрушительных свиней.</p>
+       
+          <button href="" class="button-buy"><p class="price">16.35$</p></button>
+       
+        </div> 
+        </div>
+        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <hr class="line-store">
+        </section>
+
+
+<!--__________________________________________________________________________________________________________________________________-->
+
+        <section class="container_present">
+            <img class="bg-gift" src="./assects/icons/Gift.png">
+        <div class="section_present">
+          <p class="present-text">ПОСЛЕ РЕГИСТРАЦИИ ПОЛУЧИ ПОДАРОК</p>
+          <button type="button" class="button-present"><p class="register active">ЗАРЕГИСТРИРУЙТЕСЬ</p></button>
+          <button type="button" class="button-present" onclick="changeText(this)" data-show="true">
+            ПОЛУЧИТЬ
+        </button>
+        </div>
+        <div class="section_code">
+            <p class="code-text">ВВЕСТИ ПРОМОКОД</p>
+            <input type="text"  class="code-entry">
+        </div>
+        </section>
+
+<!--__________________________________________________________________________________________________________________________________-->
+
+<footer>
+        <div class="logo_website">
+        <img src="./assects/icons/Logo.png" class="footer-logo">
+        <h2 class="website-name">Wottakow Store</h2>
+        </div>
+        <p class="copyright">Copyright © WtkStore 2023. Все права защищены.</p>
+        <p class="footer-info">Платформа для продажи цифровых товаров. Торговый агрегатор по оказанию услуг в сфере торговли. Все закупаемые ключи приобретаются у официальных поставщиков.</p>
+        <nav class="nav-footer__items">
+            <a href="https://www.instagram.com/"><img src="./assects/icons/inst 1.png" alt=""></a>
+            <a href="https://ru-ru.facebook.com/"><img src="./assects/icons/fb 1.png" alt=""></a>
+            <a href="https://twitter.com/"><img src="./assects/icons/tw 1.png" alt=""></a>
+            <a href="https://ru.pinterest.com/"><img src="./assects/icons/pinterest 1.png" alt=""></a> 
+        </nav>
+</footer>
+
+<!--__________________________________________________________________________________________________________________________________-->
+
+</main>
+<script src="./JS/JS.js"></script>
+</body>
+</html>
